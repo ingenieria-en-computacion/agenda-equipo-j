@@ -11,11 +11,11 @@ int main() {
 
     Agenda a;
     iniciar_agenda(&a);
-    leer_agenda(&a, "data/test_leer.txt");
+    cargar_contactos(&a, "data/test_leer.txt");
 
     assert(a.num_contactos == 2);
     assert(strcmp(a.contactos[0].nombre, "Ana") == 0);
-    assert(strcmp(a.contactos[1].telefono, "5555555555") == 0);
+    assert(strcmp(a.contactos[1].numero, "5555555555") == 0);
 
     printf("✅ test_leer: OK\n");
     return 0;

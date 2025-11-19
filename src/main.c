@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    printf("fjal");
+    printf("fucck");
     return 0;
 }
 
