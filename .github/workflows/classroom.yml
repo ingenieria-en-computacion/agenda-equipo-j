@@ -38,7 +38,7 @@ jobs:
       #     with:
       #         runners: addition-testname: Autograding
 
-on:
+
   push:
     branches: [main]
   pull_request:
